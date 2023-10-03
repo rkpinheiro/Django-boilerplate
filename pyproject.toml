@@ -11,9 +11,17 @@ packages = [{include = "django_boilerplate"}]
 python = "^3.11"
 Django = "^4.2.5"
 
-
 [tool.poetry.group.dev.dependencies]
 black = "^23.9.1"
+commitizen = "^3.10.0"
+
+[tool.commitizen]
+name = "cz_conventional_commits"
+tag_format = "$version"
+version_scheme = "semver"
+version_provider = "poetry"
+update_changelog_on_bump = true
+major_version_zero = true
 
 [build-system]
 requires = ["poetry-core"]
