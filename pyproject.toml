@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "django-boilerplate"
+version = "0.1.0"
+description = "Python Based Boilerplate to help out creating Web Apps"
+authors = ["Rurik Pinheiro"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "django_boilerplate"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+Django = "^4.2.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
