@@ -10,6 +10,7 @@ packages = [{include = "django_boilerplate"}]
 [tool.poetry.dependencies]
 python = "^3.11"
 Django = "^4.2.5"
+dj-database-url = "^2.1.0"
 
 [tool.poetry.group.dev.dependencies]
 black = "^23.9.1"
